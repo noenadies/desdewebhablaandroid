@@ -182,7 +182,7 @@ var mi="888";
   });
        
 
-        
+           firebase.database().ref().child("foto").on('change', function(dataSnapshot) {location.reload();alert(777777); });
         
         
         
